@@ -1,0 +1,293 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body{
+    background-color: rgba(15,18,17,255)  ;
+}
+h3{
+    color: #a1a1a1 ;
+    font-size: 30px;
+    font-family: 'Kameron' sans-serif;
+    
+}
+.imgt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.imgTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+
+}
+
+
+.fontI{
+    font-family: 'Breathing';
+}
+
+
+.precio{
+    display: none;
+}
+.col-md-4:hover .precio {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-100%);
+    text-align: center;
+    padding: 5px;
+    color: #000;
+    font-family: 'Kameron', serif;
+    font-size: 40px
+}
+.nuestrosVinos{
+    font-size: 100px;
+    font-family: 'Breathing', serif;
+    color: rgb(240, 248, 255);
+}
+
+#pedidos {
+    background: url('ruta/a/la/imagen/de/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 60px 0;
+}
+  
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+}
+  
+form label {
+    font-weight: bold;
+    color: #333;
+}
+  
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+form input[type="number"] {
+    width: 70px;
+}
+  
+form textarea {
+    resize: none;
+}
+  
+form button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+   resize: none }
+
+.parraf {
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.whatsapp {
+    position:fixed;
+    width: 90px;
+    height:90px;
+    bottom:90px;
+    right: 40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:100px;
+    z-index:100;
+  }
+  
+.whatsapp-icon {
+    margin-top:13px;
+}
+
+.bodyCarta{
+    background-color: rgba(15,18,17,255) ;
+}
+
+.titulosNav{
+    font-size: 40px;
+}
+
+.footer1{
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+  
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+  
+.social-links a {
+    margin-right: 1rem;
+}
+  
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-envelope {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+
+.whatsapp1 {
+    position:fixed;
+    width: 90px;
+    height:90px;
+    bottom:90px;
+    right: 40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:100px;
+    z-index:100;
+  }
+  
+.whatsapp1-icon {
+    margin-top:13px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.back-to-top i {
+    font-size: 20px;
+}
+
+a[href="#top"] {
+    display: none;
+}
+  
+
+a[href="#top"]:focus {
+    outline: none;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 9999;
+}
+  
+a[href="#top"]:hover {
+    opacity: 0.7;
+}
+
+.card-text{
+font-size: 20px;
+
+}
+
+img[title]:hover:after {
+    content: attr(title);
+    padding: 4px 8px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
